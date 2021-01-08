@@ -7,7 +7,7 @@ A Laravel wrapper for the firetext/php-sdk package
 ```
 composer require razorcreations/laravel-firetext
 
-php artisan vendor:publish --provider="Razorcreations\FireText\ServiceProvider" --tag="config"
+php artisan vendor:publish --provider="Razorcreations\FireText\ServiceProvider"
 ```
 
 Set your FireText username+password OR your API token in the `config/firetext.php` file.
