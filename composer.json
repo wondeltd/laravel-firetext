@@ -1,0 +1,34 @@
+{
+    "name": "razorcreations/laravel-firetext",
+    "description": "A Laravel wrapper for the firetext/php-sdk package",
+    "type": "library",
+    "require": {
+		"firetext/php-sdk": "^1.0",
+		"illuminate/support": "^6.0|^7.0|^8.0"
+	},
+	"keywords": [
+		"laravel",
+		"firetext",
+		"razorcreations"
+	],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ross Cooper",
+            "email": "ross@razorcreations.com"
+        }
+	],
+	"autoload": {
+		"psr-4": {
+			"Razorcreations\\FireText\\": "src/"
+		}
+	},
+	"minimum-stability": "stable",
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Razorcreations\\FireText\\ServiceProvider"
+			]
+		}
+	}
+}
