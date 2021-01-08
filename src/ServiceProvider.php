@@ -22,7 +22,7 @@ class ServiceProvider extends BaseServiceProvider
 	}
 
 	public function register() {
-		$this->app->singleton(Api::class, function ($app) {
+		$this->app->singleton(Client::class, function ($app) {
 			$username = config('firetext.username');
 			$password = config('firetext.password');
 			$token = config('firetext.token');
