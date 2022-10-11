@@ -1,5 +1,5 @@
 {
-    "name": "razorcreations/laravel-firetext",
+    "name": "Wondeltd/laravel-firetext",
     "description": "A Laravel wrapper for the firetext/php-sdk package",
     "type": "library",
     "require": {
@@ -9,25 +9,25 @@
 	"keywords": [
 		"laravel",
 		"firetext",
-		"razorcreations"
+		"wonde"
 	],
     "license": "MIT",
     "authors": [
         {
-            "name": "Ross Cooper",
-            "email": "ross@razorcreations.com"
+			"name": "Ross Cooper",
+			"email": "ross@razorcreations.com"
         }
 	],
 	"autoload": {
 		"psr-4": {
-			"Razorcreations\\FireText\\": "src/"
+			"wondeltd\\FireText\\": "src/"
 		}
 	},
 	"minimum-stability": "stable",
 	"extra": {
 		"laravel": {
 			"providers": [
-				"Razorcreations\\FireText\\ServiceProvider"
+				"Wondeltd\\FireText\\ServiceProvider"
 			]
 		}
 	}
