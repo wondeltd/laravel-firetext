@@ -1,5 +1,5 @@
 {
-    "name": "Wondeltd/laravel-firetext",
+    "name": "wondeltd/laravel-firetext",
     "description": "A Laravel wrapper for the firetext/php-sdk package",
     "type": "library",
     "require": {
@@ -20,14 +20,14 @@
 	],
 	"autoload": {
 		"psr-4": {
-			"wondeltd\\FireText\\": "src/"
+			"Wondeltd\\FireText\\": "src/"
 		}
 	},
 	"minimum-stability": "stable",
 	"extra": {
 		"laravel": {
 			"providers": [
-				"Wondeltd\\FireText\\ServiceProvider"
+				"wondeltd\\FireText\\ServiceProvider"
 			]
 		}
 	}
