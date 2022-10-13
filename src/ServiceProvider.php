@@ -1,6 +1,6 @@
 <?php
 
-namespace Razorcreations\FireText;
+namespace wondeltd\FireText;
 
 use FireText\Api\Client;
 use FireText\Api\Credentials\ApiKey;
