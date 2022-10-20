@@ -27,7 +27,7 @@
 	"extra": {
 		"laravel": {
 			"providers": [
-				"wondeltd\\FireText\\ServiceProvider"
+				"Wondeltd\\FireText\\ServiceProvider"
 			]
 		}
 	}
