@@ -1,6 +1,6 @@
 <?php
 
-namespace wondeltd\FireText;
+namespace Wondeltd\FireText;
 
 use FireText\Api\Client;
 use FireText\Api\Credentials\ApiKey;
